@@ -34,10 +34,10 @@ export function Contact() {
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
                 <a 
-                  href="mailto:contact@macleanlab.ox.ac.uk" 
+                  href="mailto:michelle.yin@seh.ox.ac.uk" 
                   className="mt-1 text-[#7CC5DE] hover:text-[#6BB4CD] inline-block"
                 >
-                  contact@macleanlab.ox.ac.uk
+                  michelle.yin@seh.ox.ac.uk
                 </a>
                 <p className="mt-2 text-gray-600">
                   For inquiries about our research, collaborations, or media requests, 
