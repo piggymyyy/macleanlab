@@ -31,5 +31,15 @@ export const teamMembers: TeamMember[] = [
     research: ['High-throughput', 'Antimicrobial Resistance', 'Evolution'],
     email: 'adam.mulkern@biology.ox.ac.uk',
     linkedinUrl: 'https://www.linkedin.com/in/adam-mulkern'
+  },
+  {
+    id: 'cedric-lood',
+    name: 'Cedric Lood',
+    title: 'Postdoctoral Researcher',
+    image: '/images/team/cedric_lood.jpg',
+    bio: 'Cedric specializes in understanding the within-host evolution of antimicrobial resistance, particularly in the pathogen Pseudomonas aeruginosa, using high-throughput technologies and robotic platforms.',
+    research: ['High-throughput', 'Antimicrobial Resistance', 'Evolution'],
+    email: 'cedric.lood@biology.ox.ac.uk',
+    linkedinUrl: 'https://www.linkedin.com/in/adam-mulkern'
   }
 ];
