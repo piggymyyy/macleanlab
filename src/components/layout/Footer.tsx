@@ -26,7 +26,7 @@ export function Footer() {
               </p>
               <p className="flex items-center gap-2">
                 <Mail size={18} />
-                contact@macleanlab.ox.ac.uk
+                michelle.yin@seh.ox.ac.uk
               </p>
             </div>
           </div>
