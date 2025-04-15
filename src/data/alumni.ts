@@ -13,7 +13,7 @@ export const alumniMembers: AlumniMember[] = [
   {
     id: 'rachel-wheatley',
     name: 'Dr. Rachel Wheatley',
-    years: '2019-20221',
+    years: '2019-2021',
     currentPosition: `Group Leader and Vice Chancellor's Illuminate Fellow at Queen's University Belfast`,
     achievements: [
       'working on a COMBACTE funded project (https://www.combacte.com/) looking at how antimicrobial resistance evolves during respiratory infections',
