@@ -17,11 +17,13 @@ export function Alumni() {
           {alumniMembers.map((alumni) => (
             <div key={alumni.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
               {alumni.image && (
-                <img
-                  src={alumni.image}
-                  alt={alumni.name}
-                  className="w-full h-48 object-cover object-center"
-                />
+                <div className="h-48 flex justify-center bg-gray-100">
+                  <img
+                    src={alumni.image}
+                    alt={alumni.name}
+                    className="h-48 w-auto"
+                  />
+                </div>
               )}
               <div className="p-6">
                 <h2 className="text-xl font-bold text-gray-900">{alumni.name}</h2>
