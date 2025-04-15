@@ -52,10 +52,10 @@ in clinical settings.`,
     profileUrl: 'https://www.biology.ox.ac.uk/people/cedric-lood'
   },
   {
-    id: 'will-mattlock',
-    name: 'Will Mattlock',
+    id: 'will-matlock',
+    name: 'Will Matlock',
     title: 'Postdoctoral Researcher',
-    image: '/macleanlab/images/team/will_mattlock.png',
+    image: '/macleanlab/images/team/will_matlock.png',
     bio: `Will is a computational biologist postdoc based in the Department of Biology, University of Oxford, UK. He is
      interested how mobile genetic elements, such as plasmids, integrons, and transposons, evolve and spread antimicrobial 
      resistance genes. Will spends most of his time developing novel genomic methods, but also works on more fundamental

@@ -20,7 +20,7 @@ export function Alumni() {
                 <img
                   src={alumni.image}
                   alt={alumni.name}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-cover object-center"
                 />
               )}
               <div className="p-6">
