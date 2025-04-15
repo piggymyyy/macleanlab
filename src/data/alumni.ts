@@ -19,7 +19,7 @@ export const alumniMembers: AlumniMember[] = [
       'working on a COMBACTE funded project (https://www.combacte.com/) looking at how antimicrobial resistance evolves during respiratory infections',
       `Recipient of a 'Time to Think' fellowship at Wissenschaftskolleg Berlin, Institute for Advanced Study`
     ],
-    image: '/images/alumni/rachel_wheatley.png',
+    image: '/macleanlab/images/alumni/rachel_wheatley.png',
     linkedinUrl: 'https://www.linkedin.com/in/rachel-wheatley-b48b2b102/'
   }
 ];
