@@ -6,20 +6,20 @@ export interface AlumniMember {
   achievements: string[];
   image?: string;
   linkedinUrl?: string;
+  websiteUrl?: string;
 }
 
 export const alumniMembers: AlumniMember[] = [
   {
-    id: 'sarah-jones',
-    name: 'Dr. Sarah Jones',
-    years: '2018-2022',
-    currentPosition: 'Assistant Professor at Cambridge University',
+    id: 'rachel-wheatley',
+    name: 'Dr. Rachel Wheatley',
+    years: '2019-20221',
+    currentPosition: `Group Leader and Vice Chancellor's Illuminate Fellow at Queen's University Belfast`,
     achievements: [
-      'Developed novel phage therapy approaches',
-      'Published 5 high-impact papers',
-      'Awarded Young Researcher Prize 2022'
+      'working on a COMBACTE funded project (https://www.combacte.com/) looking at how antimicrobial resistance evolves during respiratory infections',
+      `Recipient of a 'Time to Think' fellowship at Wissenschaftskolleg Berlin, Institute for Advanced Study`
     ],
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    linkedinUrl: 'https://www.linkedin.com/in/sarah-jones'
+    image: '/macleanlab/images/alumni/rachel_wheatley.png',
+    linkedinUrl: 'https://www.linkedin.com/in/rachel-wheatley-b48b2b102/'
   }
 ];

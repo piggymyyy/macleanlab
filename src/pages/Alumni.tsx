@@ -1,6 +1,6 @@
 import React from 'react';
 import { alumniMembers } from '../data/alumni';
-import { Building, Linkedin } from 'lucide-react';
+import { Building, Linkedin, Globe } from 'lucide-react';
 
 export function Alumni() {
   return (
@@ -48,6 +48,19 @@ export function Alumni() {
                     >
                       <Linkedin className="h-5 w-5 mr-2" />
                       Connect on LinkedIn
+                    </a>
+                  </div>
+                )}
+                {alumni.websiteUrl && (
+                  <div className="mt-2">
+                    <a
+                      href={alumni.websiteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-600 hover:text-primary"
+                    >
+                      <Globe className="h-5 w-5 mr-2" />
+                      Visit Website
                     </a>
                   </div>
                 )}

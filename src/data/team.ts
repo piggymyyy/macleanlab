@@ -49,21 +49,35 @@ in clinical settings.`,
     to clear resistant infections in patients.`,
     research: ['Lysonegic Phages', 'Antimicrobial Resistance', 'Evolution', 'Phage Therapy'],
     email: 'cedric.lood@biology.ox.ac.uk',
-    profileUrl: 'https://www.biology.ox.ac.uk/people/cedric-lood',
+    profileUrl: 'https://www.biology.ox.ac.uk/people/cedric-lood'
   },
   {
     id: 'will-mattlock',
     name: 'Will Mattlock',
     title: 'Postdoctoral Researcher',
-    image: '/macleanlab/images/team/adam_mulkern.png',
+    image: '/macleanlab/images/team/will_mattlock.png',
     bio: `Will is a computational biologist postdoc based in the Department of Biology, University of Oxford, UK. He is
      interested how mobile genetic elements, such as plasmids, integrons, and transposons, evolve and spread antimicrobial 
      resistance genes. Will spends most of his time developing novel genomic methods, but also works on more fundamental
      questions surrounding bacterial evolution.`,
-    research: ['High-throughput', 'Antimicrobial Resistance', 'Evolution'],
-    email: 'adam.mulkern@biology.ox.ac.uk',
-    profileUrl: 'https://www.biology.ox.ac.uk/people/adam-mulkern',
-    linkedinUrl: 'https://www.linkedin.com/in/adam-mulkern'
+    research: ['Computational Biology', 'Antimicrobial Resistance', 'Evolution'],
+    email: 'will.mattlock@biology.ox.ac.uk',
+    profileUrl: 'https://www.biology.ox.ac.uk/people/will-matlock'
+  },
+  {
+    id: 'samuel-greenrod',
+    name: 'Samuel TE Greenrod',
+    title: 'Graduate Student',
+    image: '/macleanlab/images/team/sam_greenrod.png',
+    bio: `Sam's research looks at how bacteria and phages interact and evolve. Specifically, he am focusing on how phage 
+    activity changes with temperature, which varies both within and between individuals. His research aims to improve our 
+    understanding of how phage treatment efficacy changes between and within individuals. This will inform us about the 
+    benefits and challenges that phage treatments might face as therapeutics. Further, this work will aid the development 
+    of more effective phage treatments to cure antibiotic-resistant bacterial infections.`,
+    research: ['Lytic Phages', 'Temperature', 'Evolution', 'Phage Therapy', 'Climate Change'],
+    email: 'samuel.greenrod@magd.ox.ac.uk',
+    profileUrl: 'https://www.biology.ox.ac.uk/people/samuel-greenrod#tab-3799836',
+    linkedinUrl: 'https://www.linkedin.com/in/samuel-greenrod-563909155/'
   },
   {
     id: 'michelle-yin',
