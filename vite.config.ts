@@ -5,7 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/macleanlab/', // 👈 This is the fix!
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
+  optimizeDeps: {},
 });
