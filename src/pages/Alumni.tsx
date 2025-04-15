@@ -13,14 +13,14 @@ export function Alumni() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2">
+        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {alumniMembers.map((alumni) => (
             <div key={alumni.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
               {alumni.image && (
                 <img
                   src={alumni.image}
                   alt={alumni.name}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-64 object-cover"
                 />
               )}
               <div className="p-6">
