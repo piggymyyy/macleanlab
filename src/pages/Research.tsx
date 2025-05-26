@@ -2,10 +2,10 @@ import React from 'react';
 import { TestTubes, Virus, Dna } from 'lucide-react';
 import { researchData } from '../data/research';
 
-const iconMap = {
-  TestTubes,
-  Bacteriophage: Virus,
-  Dna
+const iconMap: Record<string, React.FC<any>> = {
+  'TestTubes': TestTubes,
+  'Bacteriophage': Virus,
+  'Dna': Dna
 };
 
 export function Research() {
