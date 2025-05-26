@@ -49,7 +49,7 @@ export const researchData: ResearchArea[] = [
         id: 'phage-bacteria-coevolution',
         title: 'Phage-Bacteria Coevolution',
         description: 'Studying the evolutionary arms race between phages and bacteria.',
-        icon: 'Microscope',
+        icon: 'Bacteriophage',
         projects: [
           'Host range evolution',
           'Resistance mechanisms',

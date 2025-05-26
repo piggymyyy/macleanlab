@@ -1,5 +1,5 @@
 import React from 'react';
-import { MicroscopeIcon } from 'lucide-react';
+import { Virus } from 'lucide-react';
 
 interface HeroProps {
   onNavigate: (page: string) => void;

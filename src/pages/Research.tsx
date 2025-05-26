@@ -1,10 +1,10 @@
 import React from 'react';
-import { TestTubes, Microscope, Dna } from 'lucide-react';
+import { TestTubes, Virus, Dna } from 'lucide-react';
 import { researchData } from '../data/research';
 
 const iconMap = {
   TestTubes,
-  Microscope,
+  Bacteriophage: Virus,
   Dna
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Microscope, Dna, TestTubes } from 'lucide-react';
+import { Virus, Dna, TestTubes } from 'lucide-react';
 
 export function FeaturedResearch() {
   const features = [
@@ -11,7 +11,7 @@ export function FeaturedResearch() {
     {
       name: 'Phage Therapy',
       description: 'Developing novel therapeutic approaches using bacteriophages to combat resistant infections.',
-      icon: Microscope,
+      icon: Virus,
     },
     {
       name: 'Evolutionary Biology',
