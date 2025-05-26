@@ -2,7 +2,7 @@ export interface ResearchProject {
   id: string;
   title: string;
   description: string;
-  icon: 'TestTubes' | 'Microscope' | 'Dna';
+  icon: 'TestTubes' | 'Bacteriophage' | 'Dna';
   projects: string[];
   publications?: string[];
   image?: string;
@@ -35,7 +35,7 @@ export const researchData: ResearchArea[] = [
           'Fitness cost measurements',
           'Population dynamics modeling'
         ],
-        funding: ['Wellcome Trust', 'UKRI']
+        funding: ['European Research Council']
       }
     ]
   },
@@ -55,7 +55,7 @@ export const researchData: ResearchArea[] = [
           'Resistance mechanisms',
           'Therapeutic applications'
         ],
-        collaborators: ['Phage Therapy Center', 'Oxford Hospitals']
+        funding: ['Oxford INEOS]
       }
     ]
   }
