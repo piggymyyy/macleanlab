@@ -1,5 +1,5 @@
 import React from 'react';
-import { Microscope } from 'lucide-react';
+import { Zap } from 'lucide-react';
 
 interface HeroProps {
   onNavigate: (page: string) => void;

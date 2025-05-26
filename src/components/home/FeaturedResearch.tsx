@@ -1,5 +1,6 @@
 import React from 'react';
-import { Microscope, Dna, TestTubes } from 'lucide-react';
+import { Dna, TestTubes } from 'lucide-react';
+import { BacteriophageIcon } from '../common/BacteriophageIcon';
 
 export function FeaturedResearch() {
   const features = [
@@ -11,7 +12,7 @@ export function FeaturedResearch() {
     {
       name: 'Phage Therapy',
       description: 'Developing novel therapeutic approaches using bacteriophages to combat resistant infections.',
-      icon: Microscope,
+      icon: BacteriophageIcon,
     },
     {
       name: 'Evolutionary Biology',

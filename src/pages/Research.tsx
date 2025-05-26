@@ -1,10 +1,11 @@
 import React from 'react';
-import { TestTubes, Microscope, Dna } from 'lucide-react';
+import { TestTubes, Dna } from 'lucide-react';
+import { BacteriophageIcon } from '../components/common/BacteriophageIcon';
 import { researchData } from '../data/research';
 
 const iconMap: Record<string, React.FC<any>> = {
   'TestTubes': TestTubes,
-  'Bacteriophage': Microscope,
+  'Bacteriophage': BacteriophageIcon,
   'Dna': Dna
 };
 
