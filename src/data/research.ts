@@ -55,7 +55,7 @@ export const researchData: ResearchArea[] = [
           'Resistance mechanisms',
           'Therapeutic applications'
         ],
-        funding: ['Oxford INEOS]
+        funding: ['Oxford INEOS']
       }
     ]
   }
