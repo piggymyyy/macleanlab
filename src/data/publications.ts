@@ -7,6 +7,7 @@ export interface Publication {
   doi: string;
   abstract: string;
   area: string;
+  citations?: number;
 }
 
 export const publications: Publication[] = [
