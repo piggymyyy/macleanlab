@@ -23,7 +23,7 @@ export function Header({ onNavigate, currentPage }: HeaderProps) {
     { id: 'team', label: 'Team' },
     { id: 'alumni', label: 'Alumni' },
     { id: 'publications', label: 'Publications' },
-    { id: 'social', label: 'Social' },
+    { id: 'media', label: 'Media' },
     { id: 'contact', label: 'Contact' }
   ];
 

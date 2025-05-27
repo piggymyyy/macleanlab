@@ -7,7 +7,7 @@ import { Research } from './pages/Research';
 import { Team } from './pages/Team';
 import { Alumni } from './pages/Alumni';
 import { Publications } from './pages/Publications';
-import { Social } from './pages/Social';
+import { Media } from './pages/Media';
 import { Contact } from './pages/Contact';
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
         return <Alumni />;
       case 'publications':
         return <Publications />;
-      case 'social':
-        return <Social />;
+      case 'media':
+        return <Media />;
       case 'contact':
         return <Contact />;
       default:
