@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://macleanlaboxford.com",
+  "homepage": "https://piggymyyy.github.io/macleanlab/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
